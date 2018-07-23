@@ -4,7 +4,7 @@ func _init():
 	text="*Un soleil de lumière vive commence à naitre au centre de l'écran*\n\n*Sa lumière intense s'étend, vous éblouit...*"
 
 	rep0="Continuer à regarder"
-	rep1="Mourrir"
+	rep1="Mourir"
 	rep2=""
 	rep3=""
 

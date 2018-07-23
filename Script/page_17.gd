@@ -1,7 +1,7 @@
 extends "page.gd"
 
 func _init():
-	text="*Vous prenez votre comprimé*\n\n*Tout va pour le mieux dans le meilleur des mondes*\n\n*Vous rentrez chez vous un peu avant l'heure prévu*\n\n*Quelqu'un toc à votre porte, vous ouvrez...*\n\n- Le soleil est vert !"
+	text="*Vous prenez votre comprimé*\n\n*Tout va pour le mieux dans le meilleur des mondes*\n\n*Vous rentrez chez vous un peu avant l'heure prévue*\n\n*Quelqu'un toque à votre porte, vous ouvrez...*\n\n- Le soleil est vert !"
 
 	rep0="- C'est l'heure?"
 	rep1="Refermez la porte"

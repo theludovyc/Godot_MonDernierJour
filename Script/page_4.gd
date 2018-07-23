@@ -1,7 +1,7 @@
 extends "page.gd"
 
 func _init():
-	text="*Vous écoutez le sextet cloud atlas lorsque quelqu'un toc à votre porte, vous ouvrez...*\n\n- Le soleil est vert !"
+	text="*Vous écoutez le sextet cloud atlas lorsque quelqu'un toque à votre porte, vous ouvrez...*\n\n- Le soleil est vert !"
 
 	rep0="- C'est l'heure?"
 	rep1="Refermer la porte"

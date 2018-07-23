@@ -1,7 +1,7 @@
 extends "page.gd"
 
 func _init():
-	text="- Notre planète ne peut plus nourrir ses habitants. Il y a une cinquentaine d'années, un chercheur Dr. Atomium à réussi a prouver qu'il est possible d'extraire du corps tous les nutriments, en grande quantité, nécessaire à la vie. Vous allez être transformés afin de permettre au vivant de continuer. Nous lui connaissons cette célèbre phrase : \"Faire du neuf avec du vieux\".\n\n- Etes-vous heureux de mourrir maintenant que vous savez?"
+	text="- Notre planète ne peut plus nourrir ses habitants. Il y a une cinquantaine d'années, un chercheur Dr. Atomium à réussi a prouver qu'il est possible d'extraire du corps tous les nutriments, en grande quantité, nécessaires à la vie. Vous allez être transformés afin de permettre au vivant de continuer. Nous lui connaissons cette célèbre phrase : \"Faire du neuf avec du vieux\".\n\n- Etes-vous heureux de mourir maintenant que vous savez?"
 
 	rep0="- Oui"
 	rep1="- Non"

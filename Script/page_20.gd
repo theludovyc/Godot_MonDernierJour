@@ -13,7 +13,7 @@ func _init():
 	val2=-1
 	val3=0
 
-	next0=20
-	next1=20
+	next0=21
+	next1=21
 	next2=17
 	next3=1

@@ -1,7 +1,7 @@
 extends "page.gd"
 
 func _init():
-	text="Mon Dernier Jour\n\nRéaliser par theLudovyc\n\nTypographie : Astigmatic One Eye Typographic Institute\n\nAppuyer à tout moment sur Echap pour quitter"
+	text="Mon Dernier Jour\n\nRéalisé par theLudovyc\n\nTypographie : Astigmatic One Eye Typographic Institute\n\nAppuyez à tout moment sur Echap pour quitter"
 
 	rep0="Commencer"
 	rep1="Commencer"

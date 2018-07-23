@@ -4,7 +4,7 @@ func _init():
 	text="*Le soleil est vert !*\n\n*Vivec l'avait vécu*\n\n*Ce rêve éveillé"
 
 	rep0="Se réveiller"
-	rep1="Mourrir"
+	rep1="Mourir"
 	rep2=""
 	rep3=""
 
