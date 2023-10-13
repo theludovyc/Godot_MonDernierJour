@@ -1,0 +1,50 @@
+[gd_scene load_steps=2 format=3 uid="uid://blmg8mllanrk8"]
+
+[ext_resource type="Script" path="res://Script/Game.gd" id="1_rqqyt"]
+
+[node name="Game" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_rqqyt")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+bbcode_enabled = true
+
+[node name="Asws" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -188.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Asw0" type="Button" parent="Asws"]
+layout_mode = 2
+action_mode = 0
+
+[node name="Asw1" type="Button" parent="Asws"]
+layout_mode = 2
+action_mode = 0
+
+[node name="Asw2" type="Button" parent="Asws"]
+layout_mode = 2
+
+[node name="Asw3" type="Button" parent="Asws"]
+layout_mode = 2
+
+[connection signal="pressed" from="Asws/Asw0" to="." method="_on_asw_pressed" binds= [0]]
+[connection signal="pressed" from="Asws/Asw1" to="." method="_on_asw_pressed" binds= [1]]
+[connection signal="pressed" from="Asws/Asw2" to="." method="_on_asw_pressed" binds= [2]]
+[connection signal="pressed" from="Asws/Asw3" to="." method="_on_asw_pressed" binds= [3]]

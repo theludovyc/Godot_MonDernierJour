@@ -1,0 +1,132 @@
+intro:
+	"Mon Dernier Jour\n\nRéalisé par theLudovyc\n\nTypographie : Astigmatic One Eye Typographic Institute\n\nAppuyez à tout moment sur Echap pour quitter"
+menu mon_menu:
+	"Commencer" > page_2
+todo:
+	"Todo"
+game_over:
+	"Game Over !"
+	menu:
+		"Recommencer" > page_2
+page_2:
+	"- Le Soleil est vert !"
+	menu:
+		"- Le Soleil est vert ?" > game_over
+		"- Bonjour, merci !"
+page_3:
+	"- Qu'allez vous faire aujourd'hui?"
+	menu:
+		"- Je n'y ai pas vraiment réfléchi" > page_14
+		"- Quelqu'un m'a invité pour le déjeuner" > page_24
+		"- Attendre que l'on vienne me chercher"
+page_4:
+	"*Vous écoutez le sextet cloud atlas*\n\n*Dans votre demi-sommeil, vous entendez quelqu'un toquer à votre porte, vous allez ouvrir...*\n\n- Le soleil est vert !"
+	menu menu_page_4:
+		"- C'est l'heure?"
+		"*Refermer la porte*" > game_over
+		"- Bonsoir, merci!"
+page_5:
+	"*Il porte un pins représentant un dragon blanc associé à un nom : Cortez*\n\n- J'espère que vous avez bien profité de votre plus long voyage ici ?!\n\n*Fait un geste de la main*\n\n- Veuillez monter dans la voiture s'il vous plait."
+	menu:
+		"*Monter dans la voiture*"
+		"- Qui êtes vous?" > game_over
+page_6:
+	"*Une jeune fille en robe rouge court au loin*\n\n*Le décor commence à défiler*\n\n*La voiture roule...*"
+	menu:
+		"*Ne rien dire*"
+		"- Je reviendrai?" > game_over
+page_8:
+	"*L'ancienne vie s'éloigne...*\n\n*C'est la fin?*\n\n*La voiture roule...*Vos yeux s'ouvrent sur un mur composé de plein de petits écrans*\n\n*Vous êtes dans un fauteuil confortable au milieu de la pièce*\n\n*Une voix grésille*\n\n- Le soleil est vert !"
+	menu:
+		"*Ne rien dire*"
+		"- Merci !"
+page_9:
+	"- Souhaitez-vous connaitre la vérité ?"
+	menu:
+		"- Non, merci" > page_11
+		"- Oui"
+page_10:
+	"- Notre planète ne peut plus nourrir ses habitants. Il y a une cinquantaine d'années, un chercheur Dr. At0mium à réussi a prouver qu'il est possible d'extraire du corps tous les nutriments, en grande quantité, nécessaires à la vie. Vous allez être transformés afin de permettre au vivant de continuer. Nous lui connaissons cette célèbre phrase : Faire du neuf avec du vieux.\n\n- Etes-vous heureux de mourir maintenant que vous savez?"
+	menu:
+		"- Heu..."
+		"- Oui"
+		"- Non" > game_over
+page_11:
+	"*De magnifiques images de l'ile se succèdent devant vos yeux. Paysages de la nature verdoyants et hauts en couleur... Une musique se fait entendre, votre sextet préféré.*\n\n*Vous voyez la vie*\n\n*Vous êtes heureux*"
+	menu:
+		"*ontinuer à regarder"
+		"Mourir" > intro
+page_12:
+	"*Un soleil vert commence à naitre au centre de l'écran*\n\n*Sa lumière intense s'étend, vous éblouit...*"
+	menu:
+		"Continuer à regarder"
+		"Mourir" > intro
+page_13:
+	"*Le soleil est vert !*"
+	menu:
+		"Se réveiller" > page_4
+		"Mourir" > intro
+page_14:
+	"- Vous devriez aller à l'église d'Automata. C'est là où vont les personnes comme vous. Suivez le lapin blanc !"
+	menu:
+		"- Merci, je n'y pensais plus !"
+		"- Et puis quoi encore?!" > game_over
+		"- Finalement, je vais attendre que l'on vienne me chercher" > page_4
+page_15:
+	"*Vous suivez les symboles du lapin blanc*\n\n*Un gardien vous accueil*\n\n- Le soleil est vert !"
+	menu:
+		"- Bonjour, merci !"
+		"- Laissez moi passer! (agressif)" > game_over
+page_16:
+	"- Le soleil est vert ! Voici votre comprimé de soma, vous êtes libre de faire ce que vous voulez ici du moment que vous respectez les 4 lois d\'Automata."
+	menu:
+		"- Bonjour, merci !"
+		"- Les 4 lois?" > page_18
+page_17:
+	"*Vous prenez votre comprimé*\n\n*Tout va pour le mieux dans le meilleur des mondes*\n\n*Vous rentrez chez vous un peu avant l'heure prévue*\n\n*Quelqu'un toque à votre porte, vous ouvrez...*\n\n- Le soleil est vert !"
+	jump menu_page_4
+	
+page_18:
+	"*Sur le mur sont gravées les 4 lois :\nTu ne porteras atteinte à l'humanité, ni par ton inaction, ni permettre son exposition au danger\nTu ne porteras atteinte à un autre être vivant par ta passivité ou en l'exposant au danger\nTu obéiras aux ordes, tu ne peux nier Automata sauf si cela rentre en conflit avec les premières lois\nTu prendra soin de ton existence tant que cela ne rentre pas en conflit avec les premières lois*"
+	menu:
+		"Prier pour Automata"
+		"Aller au confessional" > page_20
+		"Avaler votre comprimé" > page_17
+		
+page_19:
+	"*Vous vous recueillez un moment*\n\n*Puis vous rentrez chez vous un peu avant l'heure prévue*\n\n*Quelqu'un toque à votre porte, vous ouvrez...*\n\n- Le soleil est vert !"
+	menu:
+		"- C'est l'heure?"
+		"- Bonsoir, merci!"
+page_20:
+	"*Vous vous rendez dans le confessionnal*\n\n*Un android vous acceuille : - Plus humain que l'humain !"
+	menu:
+		"- Plus humain que l'humain !" > page_20
+		"- J'en ai marre, je pige que dalle !" > page_17
+page_21:
+	"- J'ai 75 ans aujourd'hui, ...\n*Vous racontez votre longue vie, tous ces moments se perdront dans l'oubli comme les larmes dans la pluie*\n\nLe prêtre vous répond :*\n- Vous n'êtes pas un réplicant"
+	menu:
+		"- Merci, au revoir !" > page_17
+		"- Je pense, Sebastian, donc je suis!" > page_4
+		"- Merci, il est temps que je m'en aille !"
+page_22:
+	"*Vous arrivez chez Hayde Gofai. Cette jeune femme en rouge qui court après la vie.*\n\n- Le soleil est vert !" 
+	menu:
+		"- Merci !"
+		"- Rester sur vos gardes" > page_4
+page_23:
+	"*Le déjeuner est exquis.*\n*Vous parlez de la vie*\n\nLe digestif est fort au point de réanimer votre cadavre.*\n\n*Dans un dernier regard vous la quittez...*"
+	menu:
+		"- Merci, au revoir !" > page_17
+
+page_24:
+	"*Vous apercevez une vielle affiche déchirée au loin, vous arrivez à y lire quelques mots : la guerre c'est la paix*\n\n*Dessous une celle de l'ile attire votre regard*\n\nUn android s'adresse à vous : - Le soleil est vert !"
+	menu:
+		"- Bonjour, merci !"
+		"- Merci, je dois vous laissez !" > page_22
+
+page_25:
+	"- L'ile? Merveilleux endroit n'est-ce pas? Préservée de notre destruction. Le dernier retranchement de notre conscience. Peut-être comme vous aurons-nous le numéro gagnant?"
+	menu:
+		"- Cela me rappel des souvenirs..." > page_21
+		"- J'en ai marre, je pige que dalle !" > page_17
